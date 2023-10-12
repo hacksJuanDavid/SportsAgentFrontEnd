@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import LogoSportsAgent from "@/public/logo/sports-agents-logo.png";
 import { LuListMinus } from "react-icons/lu";
@@ -7,7 +8,7 @@ export default function Navbar() {
   return (
     <>
       {/* Navbar */}
-      <div className="navbar bg-base-100 mb-20">
+      <div className="navbar bg-base-100">
         {/* Menu Mobile */}
         <div className="navbar-start">
           <div className="dropdown">
@@ -19,28 +20,28 @@ export default function Navbar() {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Features</a>
+                <a href="/features">Features</a>
               </li>
               <li>
-                <a>About us</a>
+                <a href="/aboutus">About us</a>
               </li>
               <li>
-                <a>Service</a>
+                <a href="/service">Service</a>
               </li>
               <li>
-                <a>Pricing</a>
+                <a href="/pricing">Pricing</a>
               </li>
               <li>
-                <a>Careers</a>
+                <a href="/careers">Careers</a>
               </li>
               <li>
-                <a>FAQs</a>
+                <a href="/faqs">FAQs</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a href="/contact">Contact</a>
               </li>
               <li>
-                <a>Help Center</a>
+                <a href="/helpcenter">Help Center</a>
               </li>
             </ul>
           </div>
@@ -60,38 +61,38 @@ export default function Navbar() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 xl:text-2xl">
             <li>
-              <a>Features</a>
+              <a href="/features">Features</a>
             </li>
             <li>
-              <a>About us</a>
+              <a href="/aboutus">About us</a>
             </li>
             <li>
-              <a>Service</a>
+              <a href="/service">Service</a>
             </li>
             <li>
-              <a>Pricing</a>
+              <a href="/pricing">Pricing</a>
             </li>
             <li>
-              <a>Careers</a>
+              <a href="/careers">Careers</a>
             </li>
             <li>
-              <a>FAQs</a>
+              <a href="/faqs">FAQs</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="/contact">Contact</a>
             </li>
             <li>
-              <a>Help Center</a>
+              <a href="/helpcenter">Help Center</a>
             </li>
           </ul>
         </div>
 
         {/* Menu Desktop Right */}
         <div className="navbar-end">
-          <a className="btn btn-ghost rounded-full text-primary w-20 h-10 lg:w-40 lg:h-16">
+          <a className="btn btn-ghost rounded-full text-primary w-20 h-10 lg:w-40 lg:h-16" href="/login">
             Login
           </a>
-          <a className="btn btn-primary rounded-full w-20 h-10 lg:w-40 lg:h-16">
+          <a className="btn btn-primary rounded-full w-20 h-10 lg:w-40 lg:h-16" href="/register">
             Try for free
           </a>
         </div>
