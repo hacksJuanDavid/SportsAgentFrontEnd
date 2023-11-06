@@ -1,5 +1,5 @@
 // Contact page
-export default function Contact() {
+export default function PageContact() {
   return (
     <>
       <h1>Contact</h1>

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 }
 
 // Layout for the page
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function PageLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head/>

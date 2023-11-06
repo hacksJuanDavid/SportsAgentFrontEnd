@@ -1,5 +1,5 @@
 // Careers page
-export default function Careers() {
+export default function PageCareers() {
   return (
     <>
       <h1>Careers</h1>

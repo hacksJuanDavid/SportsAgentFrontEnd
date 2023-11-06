@@ -16,13 +16,6 @@ export default function HeroHome() {
           <h1 className="text-4xl lg:text-8xl text-center font-bold py-6">
             Sports Agent
           </h1>
-
-          {/* Button Register*/}
-          <div className="flex justify-center py-6">
-            <button className="btn btn-white rounded-full w-80 h-16 justify-center text-primary">
-              Register
-            </button>
-          </div>
         </div>
       </div>
       <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">

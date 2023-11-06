@@ -1,5 +1,5 @@
 // AboutUs page
-export default function AboutUs() {
+export default function PageAboutUs() {
   return (
     <>
       <h1>AboutUs</h1>

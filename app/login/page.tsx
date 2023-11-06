@@ -1,8 +1,10 @@
+import Login from "@/components/singin/login";
+
 // Login page
-export default function Login() {
+export default function PageLogin() {
   return (
     <>
-      <h1>Login</h1>
+      <Login />
     </>
   );
 }

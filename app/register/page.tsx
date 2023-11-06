@@ -1,8 +1,10 @@
+import Register from "@/components/singup/register";
+
 // Register page
-export default function Register() {
+export default function PageRegister() {
   return (
     <>
-      <h1>Register</h1>
+      <Register />
     </>
   );
 }

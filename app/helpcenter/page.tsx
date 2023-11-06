@@ -1,5 +1,5 @@
 // HelpCenter page
-export default function HelpCenter() {
+export default function PageHelpCenter() {
   return (
     <>
       <h1>HelpCenter</h1>
