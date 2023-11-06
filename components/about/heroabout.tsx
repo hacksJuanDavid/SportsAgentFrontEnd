@@ -45,11 +45,11 @@ export default function HeroAbout() {
 
         {/* Text About us */}
         <div>
+          <h1 className="text-5xl font-bold">About us</h1>
           <p className="py-6 text-xl text-left">
             Empowering athletes to achieve their full potential is at the heart
             of our business.
           </p>
-          <h1 className="text-5xl font-bold">About us</h1>
           <p className="py-6 text-1xl">
             At Sport Agent, we pride ourselves on being your premier sports
             agency, dedicated to maximizing your athletic careers potential.
