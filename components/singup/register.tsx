@@ -6,7 +6,7 @@ import BmxStreet from "@/public/sports/boxing.png";
 export default function Register() {
     return (
         <>
-            <div className="hero min-h-screen bg-primary">
+            <div className="hero min-h-screen bg-primary text-black">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left shadow-xl rounded-full m-2 p-2 bg-base-100">
                         <Image
@@ -53,7 +53,7 @@ export default function Register() {
                             {/*You have a acount in link */}
                             <div className="flex items-center justify-center mt-6">
                                 <label className="label-text-alt">You have an account?</label>
-                                <a href="/login" className="btn btn-sm btn-secondary btn-square ml-2 w-32" >Login</a>
+                                <a href="/login" className="btn btn-sm btn-secondary btn-square ml-2 w-32 " >Login</a>
                             </div>
                         </form>
                     </div>

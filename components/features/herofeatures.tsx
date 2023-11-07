@@ -8,7 +8,7 @@ export default function HeroFeatures() {
 
     return (
         <>
-            <div className="hero min-h-screen bg-neutral">
+            <div className="hero min-h-screen bg-neutral text-black">
                 <div className="hero-content text-center">
                     <div className="max-w-md">
                         <h1 className="text-5xl font-bold m-4">Features</h1>

@@ -5,7 +5,7 @@ import BmxPark from "@/public/sports/bmxpark.png";
 export default function Login() {
     return (
         <>
-            <div className="hero min-h-screen bg-secondary">
+            <div className="hero min-h-screen bg-secondary text-black">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form className="card-body">

@@ -7,7 +7,7 @@ import { SiMoneygram } from "react-icons/si";
 // HeroAbout Component
 export default function HeroAbout() {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="hero min-h-screen bg-base-200 text-black">
       <div className="hero-content flex-col lg:flex-row-reverse">
         {/* Img Ski */}
         <Image
@@ -46,7 +46,7 @@ export default function HeroAbout() {
         {/* Text About us */}
         <div>
           <h1 className="text-5xl font-bold">About us</h1>
-          <p className="py-6 text-xl text-left">
+          <p className="py-6 text-xl">
             Empowering athletes to achieve their full potential is at the heart
             of our business.
           </p>
