@@ -80,7 +80,7 @@ export default function HeroFeaturesTestimonials() {
                     >
                         {testimonials.map((testimonials, index) => (
                             <SwiperSlide key={index} className="flex items-center justify-center">
-                                <div className="card bg-base-100 shadow-xl w-64 h-auto p-4">
+                                <div className="card glass shadow-xl w-64 h-auto p-4">
                                     <figure className="text-center">
                                         <Image
                                             src={testimonials.image}
