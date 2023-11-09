@@ -26,13 +26,10 @@ export default function Navbar() {
                 <a href="/aboutus">About us</a>
               </li>
               <li>
-                <a href="/service">Service</a>
+              <a href="/dashboard">Dashboard</a>
               </li>
               <li>
                 <a href="/pricing">Pricing</a>
-              </li>
-              <li>
-                <a href="/careers">Careers</a>
               </li>
               <li>
                 <a href="/faqs">FAQs</a>
@@ -68,13 +65,10 @@ export default function Navbar() {
               <a href="/aboutus">About us</a>
             </li>
             <li>
-              <a href="/service">Service</a>
+              <a href="/dashboard">Dashboard</a>
             </li>
             <li>
               <a href="/pricing">Pricing</a>
-            </li>
-            <li>
-              <a href="/careers">Careers</a>
             </li>
             <li>
               <a href="/faqs">FAQs</a>
