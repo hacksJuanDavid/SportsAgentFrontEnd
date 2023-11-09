@@ -53,6 +53,7 @@ export default function Navbar() {
               alt="LogoSportsAgentLogo"
               width={160}
               height={64}
+              priority={true}
             />
           </a>
         </div>
