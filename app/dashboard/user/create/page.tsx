@@ -1,9 +1,11 @@
 "use client";
+import CreateUser from "@/components/usercrud/createuser";
+
 // CreateUserPage page
 export default function CreateUserPage() {
   return (
     <>
-        <h1>Create User</h1>
+      <CreateUser />
     </>
   );
 }

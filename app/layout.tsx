@@ -1,27 +1,33 @@
+"use client";
 import Navbar from "@/components/common/navbar";
 import Footer from "@/components/common/footer";
 import Favicon from "@/public/favicon.ico"
-import { Metadata } from "next";
+import { ReactNode } from "react";
+import { Provider } from "react-redux";
+import { store, persistor } from "@/redux/store/store";
+import { PersistGate } from "redux-persist/integration/react";
 import "./globals.css";
 
-// Metadata for the page Head
-export const metadata: Metadata = {
-  title: "Sports Agent",
-  description: "Sports Agent",
-  icons: [{rel: "icon", url: Favicon.src}],
-}
-
 // Layout for the page
-export default function PageLayout({ children }: { children: React.ReactNode }) {
+export default function PageLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <head/>
+      <head>
+        <title>SportsAgents</title>
+        <meta name="description" content="SportsAgentsApp" />
+        <meta name="author" content="HacksJuanda" />
+        <link rel="icon" href={Favicon.src} />
+      </head>
       <body>
-        <div data-theme="mytheme">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+        <Provider store={store}>
+          <PersistGate loading={null} persistor={persistor}>
+            <div data-theme="mytheme">
+              <Navbar />
+              {children}
+              <Footer />
+            </div>
+          </PersistGate>
+        </Provider>
       </body>
     </html>
   );

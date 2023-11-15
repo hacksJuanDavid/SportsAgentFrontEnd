@@ -1,9 +1,11 @@
 "use client";
+import UpdateUser from "@/components/usercrud/updateuser";
+
 // UpdateUserPage page
 export default function UpdateUserPage() {
     return (
         <>
-            <h1>Detail User</h1>
+            <UpdateUser />
         </>
     );
 }

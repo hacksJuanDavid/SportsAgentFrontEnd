@@ -1,9 +1,11 @@
 "use client";
+import DetailContact from "@/components/contactcrud/detailcontact";
+
 // DetailContactPage page
 export default function DetailContactPage() {
     return (
         <>
-            <h1>Contact Detail</h1>
+            <DetailContact />
         </>
     );
 }

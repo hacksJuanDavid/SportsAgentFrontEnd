@@ -1,9 +1,11 @@
 "use client";
+import CrudUser from "@/components/cruds/usercrud";
+
 // UserPage page
 export default function UserPage() {
-    return (
-      <>
-        <h1>User Page</h1>
-      </>
-    );
-  }
+  return (
+    <>
+      <CrudUser />
+    </>
+  );
+}
